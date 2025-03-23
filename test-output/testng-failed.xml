@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TestFirefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://tutorialsninja.com/demo/index.php?route=account/login"/>
+    <classes>
+      <class name="TestNGMultipleBrowser.ValidationInMultipleBrowser">
+        <methods>
+          <include name="titleValidation"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="urlValidation"/>
+          <include name="logoValidation"/>
+        </methods>
+      </class> <!-- TestNGMultipleBrowser.ValidationInMultipleBrowser -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
+  <test thread-count="5" parallel="tests" name="TestChrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://tutorialsninja.com/demo/index.php?route=account/login"/>
+    <classes>
+      <class name="TestNGMultipleBrowser.ValidationInMultipleBrowser">
+        <methods>
+          <include name="titleValidation"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="urlValidation"/>
+          <include name="logoValidation"/>
+        </methods>
+      </class> <!-- TestNGMultipleBrowser.ValidationInMultipleBrowser -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+  <test thread-count="5" parallel="tests" name="TestEdge(failed)">
+    <parameter name="browser" value="edge"/>
+    <parameter name="url" value="https://tutorialsninja.com/demo/index.php?route=account/login"/>
+    <classes>
+      <class name="TestNGMultipleBrowser.ValidationInMultipleBrowser">
+        <methods>
+          <include name="titleValidation"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="urlValidation"/>
+          <include name="logoValidation"/>
+        </methods>
+      </class> <!-- TestNGMultipleBrowser.ValidationInMultipleBrowser -->
+    </classes>
+  </test> <!-- TestEdge(failed) -->
+</suite> <!-- Failed suite [Suite] -->
