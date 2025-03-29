@@ -1,0 +1,17 @@
+{
+	"environment":
+	{
+		"QA":
+		{
+			"url": "http://www.automationpractice.pl"
+		},
+		"DEV":
+		{
+			"url": "http://google.com"
+		},
+		"UAT":
+		{
+			"url": "http://www.bhulekh.ori.nic.in/BhulekhError.aspx"
+		}
+	}
+}

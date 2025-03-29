@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="POM01.LoginTest">
+      <class name="ReadDataFromJSON.ReadData">
         <methods>
-          <include name="tearDown"/>
-          <include name="testLogin"/>
-          <include name="setup"/>
+          <include name="getDataFromJSON"/>
         </methods>
-      </class> <!-- POM01.LoginTest -->
+      </class> <!-- ReadDataFromJSON.ReadData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
